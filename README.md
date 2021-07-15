@@ -1,3 +1,5 @@
-# Java-Review
+# OOP Design Pattern Studies
 <br>
-Extends, Implements, Abstract class 이해하기
+1. Strategy Pattern
+2. Observer Pattern
+3. Decorator Pattern
