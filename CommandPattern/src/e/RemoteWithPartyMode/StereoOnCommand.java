@@ -1,4 +1,4 @@
-package d.MetaCommandPattern.UndoCeilingFan;
+package e.RemoteWithPartyMode;
 
 public class StereoOnCommand implements Command {
 	Stereo stereo;

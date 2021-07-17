@@ -1,4 +1,4 @@
-package c.MetaCommandPattern.UndoLight;
+package e.RemoteWithPartyMode;
 
 public class Light {
 	String location;

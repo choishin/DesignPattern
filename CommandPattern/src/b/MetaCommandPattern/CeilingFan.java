@@ -1,13 +1,13 @@
 package b.MetaCommandPattern;
 
 public class CeilingFan {
-	String name;
+	String location;
 	
-	public CeilingFan(String name) {
-		this.name = name;
+	public CeilingFan(String location) {
+		this.location = location;
 	}
 	
-	void on() {System.out.println(name+" CeilingFan is on high");}
-	void off() {System.out.println(name+" CeilingFan is off");}
+	void on() {System.out.println(location+" CeilingFan is on high");}
+	void off() {System.out.println(location+" CeilingFan is off");}
 
 }

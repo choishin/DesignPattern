@@ -1,4 +1,4 @@
-package d.MetaCommandPattern.UndoCeilingFan;
+package e.RemoteWithPartyMode;
 
 public class LightOffCommand implements Command {
 	Light light;

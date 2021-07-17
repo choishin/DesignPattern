@@ -1,13 +1,13 @@
 package b.MetaCommandPattern;
 
 public class Light {
-	String name;
+	String location;
 	
-	public Light (String name) {
-		this.name = name;
+	public Light (String location) {
+		this.location = location;
 	}
 	
-	void on() {System.out.println(name+" Light on");}
-	void off() {System.out.println(name+" Light off");}
+	void on() {System.out.println(location+" Light on");}
+	void off() {System.out.println(location+" Light off");}
 
 }

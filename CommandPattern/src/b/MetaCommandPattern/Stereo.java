@@ -1,10 +1,10 @@
 package b.MetaCommandPattern;
 
 public class Stereo {
-	String name;
+	String location;
 	
-	public Stereo(String name) {
-		this.name = name;
+	public Stereo(String location) {
+		this.location = location;
 	}
 	
 	void on() {System.out.println("Stereo is on");}
