@@ -1,6 +1,8 @@
-package c.Waitress.Iterator;
+package f.Waitress.MenusArray;
 
-public class DinnerMenu {
+import java.util.Iterator;
+
+public class DinnerMenu implements Menu {
 	static final int MAX_ITEMS = 6;
 	int numberOfItems = 0;
 	MenuItem[] menuItems;
@@ -22,7 +24,9 @@ public class DinnerMenu {
 		numberOfItems++;
 	}
 
-	public MenuItem[] getMenuItems() {
-		return menuItems;
+	@Override
+	public Iterator createIterator() {
+		// TODO Auto-generated method stub
+		return new DinnerMenuIterator(menuItems);
 	}
 }

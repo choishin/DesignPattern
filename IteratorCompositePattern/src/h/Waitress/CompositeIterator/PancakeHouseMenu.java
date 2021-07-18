@@ -1,9 +1,10 @@
-package c.Waitress.Iterator;
+package h.Waitress.CompositeIterator;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
-public class PancakeHouseMenu {
+public class PancakeHouseMenu extends MenuComponent {
 	List<MenuItem> menuItems;
 	
 	public PancakeHouseMenu() {
@@ -19,8 +20,9 @@ public class PancakeHouseMenu {
 		menuItems.add(menuItem);
 	}
 
-	public List<MenuItem> getMenuItems() {
-		return menuItems;
+	public Iterator createIterator() {
+		// TODO Auto-generated method stub
+		return menuItems.iterator(); 
 	}
 	
 }
